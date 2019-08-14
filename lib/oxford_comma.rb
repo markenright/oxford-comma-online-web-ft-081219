@@ -7,10 +7,11 @@ def oxford_comma(array)
  elsif array.length == 2
   return array.join(" and ")
  end
+ 
   array.join(", ") + ", and " + last_one
 
 end
 
 puts oxford_comma(["fiddleheads","okra","kohlrabi"])
 puts
-puts oxford_comma(["something"])
+puts oxford_comma(["something", "else"])
