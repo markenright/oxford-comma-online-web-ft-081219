@@ -11,7 +11,7 @@ def oxford_comma(array)
  else
    last_one = array.pop
   array.join(", ") + ", and " + last_one
-
+end
 end
 
 puts oxford_comma(["fiddleheads","okra","kohlrabi"])
