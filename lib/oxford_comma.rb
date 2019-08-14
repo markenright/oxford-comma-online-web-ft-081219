@@ -3,4 +3,4 @@ def oxford_comma(array)
 
 end
 
-puts oxford_comma
+puts oxford_comma(["fiddleheads","okra","kohlrabi"])
